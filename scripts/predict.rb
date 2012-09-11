@@ -76,13 +76,15 @@ words.each do |word|
     trie.build word
   end
   
- # data
+ pp  data
 =begin
 data.keys.each do |k|
   puts data[k].length.to_s + " " +  k    if data[k].length > 1 
 end
 =end
 
+
+#=begin
 tamil_chars = (2949..2954).to_a + (2958..2960).to_a + (2962..2964).to_a + [2965,2969,2970,2972,2974,2975,2979,2980,2984,2985,2986, 2990,2991,2992,2993,2994,2995,2996,2997,2999,3000,3001]
 
 
@@ -115,3 +117,4 @@ end
 end   
 end  
 
+#=end
