@@ -27,6 +27,13 @@ extract the xml dump
 
 
 
+tamil codepage on unicode
+------------------
+
+	wget http://unicode.org/charts/PDF/U0B80.pdf
+
+
+
 build the wordlist
 ------------------
 
@@ -35,7 +42,6 @@ you have to build a command list and connect them via pipe, if commands is compl
 
 knowledge of following commands and ruby is assumed
 head tail cut sort uniq 
-
 
 
 dump the file in terminal
